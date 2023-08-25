@@ -1,79 +1,69 @@
 const userData = {
   githubUsername: "thamunsta",
   name: "Mike Johnston",
-  designation: "Developer & IT Professional",
+  designation: "Software Developer",
   avatarUrl: "/avatar.png",
   email: "hello@mikejohnston.ca",
-  phone: "+19053990575",
+  phone: "+12892080901",
   address: "Ontario, Canada",
   projects: [
     {
       id: 0,
       title: "Developer Website",
-      link: "https://github.com/kookerboo/portfolio",
+      link: "https://github.com/ThaMunsta/portfolio",
       imgUrl: "/portfolio.png",
-    },
-    {
-      id: 1,
-      title: "Wedding Website",
-      link: "claireandmike.ca",
-      imgUrl: "/wedding_website.png",
-    },
-    {
-      id: 2,
-      title: "Atlas Landing Page",
-      link: "",
-      imgUrl: "/landing_page.png",
-    },
-    {
-      id: 3,
-      title: "Mileage",
-      link:"https://github.com/kookerboo/city-province-mileage",
-      imgUrl: "/mileage.png",
-    },
-    {
-      id: 4,
-      title: "Atlas Event Website",
-      link: "https://github.com/kookerboo/events",
-      imgUrl: "/event_page.png",
     },
   ],
   about: {
     title:
-      "Hello, I'm Claire Johnston, a passionate and dedicated Developer and IT Professional with 10 years experience.",
+      "Hello, I'm Mike Johnston, a passionate and dedicated Developer and IT Professional with over 15 years experience.",
     description: [
-      "Throughout my career, I have honed my skills in front and back end development, problem-solving and technical support.  I am driven by a strong desire to create innovative and user-centric solutions that make a meaningful impact.",
-      "With a keen eye for detail and a commitment to delivering excellence, I thrive in dynamic environments where creativitiy and problem-solving are valued.  I have collaborated with talented teams on diverse projects, delivering high-quality solutions that exceed client expectations.  I am well-versed in HTML, CSS, JavaScript, and React and stay updated with the latest industry trends and best practices.",
-      "Beyond my technical skills, I am a great communicator and enjoy collaborating with cross-functional teams.  I pride myself on my ability to effectively translate complex technical concepts into user-friendly language, ensuring smooth communication between technical and non-technical stakeholders.  My portfolio showcases a range of projects that highlight my skills and expertise."
+      "With 9+ years of experience as a Developer and 15+ years in tech, I have obtained expertise in various programming languages, frameworks, systems and utilities.",
+      " I have worked on a variety of projects, from simple websites to complex system integrations and solution architecture."    
     ],
     currentProject: "this portfolio website",
-    currentProjectUrl: "https://github.com/kookerboo/portfolio",
+    currentProjectUrl: "https://github.com/thamunsta/portfolio",
   },
   experience: [
     {
       id: 0,
-      title: "Senior Developer",
-      company: "Atlas Van Lines Canada Ltd.",
-      year: "2014 - 2023",
-      companyLink: "https://atlasvanlines.ca",
+      title: "DevOps Engineer",
+      company: "Tekside.io",
+      year: "2019 - Present",
+      companyLink: "https://www.tekside.io/",
       desc: [
-      "Lead developer responsible for numerous migration projects, ensuring smooth transitions and timely delivery of results.  ",
-      "Performed end-to-end software development activities including analysis, design, coding, debugging, and testing of various applications.",
+      "",
       ],
     },
     {
       id: 1,
-      title: "Computer Programmer",
-      company: "Sheridan College",
-      year: "2013",
-      companyLink: "https://www.sheridancollege.ca/programs/computer-programming",
-      desc: "Obtained a Computer Programmer Diploma.  Courses included Java, C# and .NET, Web Development, Database design, Systems analysis and design, Network communications and configurations."
+      title: "Developer",
+      company: "Inbox Marketer",
+      year: "2017 - 2019",
+      companyLink: "https://www.shiftparadigm.com/",
+      desc: ""
+    },
+    {
+      id: 2,
+      title: "Technical Support",
+      company: "Keystroke Quality Computing Ltd.",
+      year: "2013 - 2017",
+      companyLink: "https://www.keystroke.ca/en/",
+      desc: ""
+    },
+    {
+      id: 3,
+      title: "Support Ninja",
+      company: "Hero Technical Solutions Inc.",
+      year: "2010 - 2013",
+      companyLink: "https://yourcrmhero.com/",
+      desc: ""
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/10zYRizinVFxo4dQxl7_N5dQPQf5V3xe5/view?usp=sharing",
+    "https://drive.google.com/file/d/1zF6zxS8uTSUisfTcq0f13Q5eZqqaVVo2/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/kookerboo",
+    instagram: "https://instagram.com/thamunsta",
     linkedin: "https://linkedin.com/in/thatmikej",
     github: "https://github.com/thamunsta",
   },

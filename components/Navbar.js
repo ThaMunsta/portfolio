@@ -105,7 +105,7 @@ export default function Navbar() {
             )}
           </Link>
           <Link
-            href="https://clairebear.omg.lol/now"
+            href="https://munsta.omg.lol/now"
             className={`text-base  ${
               router.asPath === "/now"
                 ? "text-gray-800 font-bold dark:text-gray-400"
@@ -241,11 +241,11 @@ export default function Navbar() {
         >
           Experience
         </Link>
-        <Link 
-          href="https://clairebear.omg.lol/now"
+        {/* <Link 
+          href=""
           className="text-base font-normal text-gray-600 dark:text-gray-300">
           Now
-        </Link>
+        </Link> */}
         <Link
           href="/contact"
           className="text-base font-normal text-gray-600 dark:text-gray-300"

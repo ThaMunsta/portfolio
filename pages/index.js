@@ -11,10 +11,10 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Mike Johnston - Developer, Programmer, Analyst"
-      description="I've been a developer for 10 years. This is my porfolio website. "
+      description="I've been a developer 9+ for  years. This is my porfolio website. "
     >
       <Hero />
-      <FavouriteProjects />
+      {/* <FavouriteProjects /> */}
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
