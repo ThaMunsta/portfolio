@@ -4,9 +4,9 @@ const userData = {
   name: "Mike Johnston",
   designation: "Software Developer",
   avatarUrl: "/avatar.png",
-  email: "hello@mikejohnston.ca",
+  email: "hello@yamj.ca",
   phone: "+12892080901",
-  address: "Ontario, Canada",
+  address: "Guelph Ontario, Canada",
   projects: [
     {
       id: 0,
