@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "thamunsta",
   pretext: "Yet Another",
   name: "Mike Johnston",
-  designation: "Software Developer",
+  designation: "Senior Technical Lead",
   avatarUrl: "/avatar.png",
   email: "hello@yamj.ca",
   phone: "+12892080901",
@@ -28,7 +28,7 @@ const userData = {
   experience: [
     {
       id: 0,
-      title: "DevOps Engineer",
+      title: "Senior Technical Lead",
       company: "Tekside.io",
       year: "2019 - Present",
       companyLink: "https://www.tekside.io/",
@@ -38,7 +38,7 @@ const userData = {
     },
     {
       id: 1,
-      title: "Developer",
+      title: "Software Developer",
       company: "Inbox Marketer",
       year: "2017 - 2019",
       companyLink: "https://www.shiftparadigm.com/",
@@ -46,7 +46,7 @@ const userData = {
     },
     {
       id: 2,
-      title: "Technical Support",
+      title: "Senior Technical Support",
       company: "Keystroke Quality Computing Ltd.",
       year: "2013 - 2017",
       companyLink: "https://www.keystroke.ca/en/",
