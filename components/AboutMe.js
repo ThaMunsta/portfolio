@@ -49,7 +49,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I am currently looking for a job.  Take a look at my {" "} 
+                I am always open to new challenges.  Take a look at my {" "} 
                 <a
                   href={userData.resumeUrl}
                   target="__blank"

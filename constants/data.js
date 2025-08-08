@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "thamunsta",
   pretext: "Yet Another",
   name: "Mike Johnston",
-  designation: "Software Developer",
+  designation: "Senior Technical Lead",
   avatarUrl: "/avatar.png",
   email: "hello@yamj.ca",
   phone: "+12892080901",
@@ -17,9 +17,9 @@ const userData = {
   ],
   about: {
     title:
-      "Hello, I'm Mike Johnston, a passionate and dedicated Developer and IT Professional with over 15 years experience.",
+      "Hello, I'm Mike Johnston, a passionate and dedicated Developer and IT Professional with over 17 years experience.",
     description: [
-      "With 9+ years of experience as a Developer and 15+ years in tech, I have obtained expertise in various programming languages, frameworks, systems and utilities.",
+      "With 11+ years of experience as a Developer and 15+ years in tech, I have obtained expertise in various programming languages, frameworks, systems and utilities.",
       " I have worked on a variety of projects, from simple websites to complex system integrations and solution architecture."    
     ],
     currentProject: "this portfolio website",
@@ -28,32 +28,42 @@ const userData = {
   experience: [
     {
       id: 0,
-      title: "DevOps Engineer",
-      company: "Tekside.io",
-      year: "2019 - Present",
-      companyLink: "https://www.tekside.io/",
+      title: "Senior Technical Lead",
+      company: "ClaroVant Digital Inc.",
+      year: "2025 - Present",
+      companyLink: "https://www.clarovantdigital.com/",
       desc: [
-      "",
+        "",
       ],
     },
     {
       id: 1,
-      title: "Developer",
+      title: "Senior Developer / DevOps Lead",
+      company: "Tekside.io",
+      year: "2019 - 2025",
+      companyLink: "https://www.tekside.io/",
+      desc: [
+        "",
+      ],
+    },
+    {
+      id: 2,
+      title: "Software Developer",
       company: "Inbox Marketer",
       year: "2017 - 2019",
       companyLink: "https://www.shiftparadigm.com/",
       desc: ""
     },
     {
-      id: 2,
-      title: "Technical Support",
+      id: 3,
+      title: "Senior Technical Support",
       company: "Keystroke Quality Computing Ltd.",
       year: "2013 - 2017",
       companyLink: "https://www.keystroke.ca/en/",
       desc: ""
     },
     {
-      id: 3,
+      id: 4,
       title: "Support Ninja",
       company: "Hero Technical Solutions Inc.",
       year: "2010 - 2013",
@@ -62,7 +72,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1zF6zxS8uTSUisfTcq0f13Q5eZqqaVVo2/view?usp=sharing",
+    "https://drive.google.com/file/d/1YqalUjsQTt5BNYvV78OP5h0IPiC_sCJg/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/thamunsta",
     linkedin: "https://linkedin.com/in/thatmikej",
