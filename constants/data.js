@@ -38,7 +38,7 @@ const userData = {
     },
     {
       id: 1,
-      title: "Senior Technical Lead",
+      title: "Senior Developer / DevOps Lead",
       company: "Tekside.io",
       year: "2019 - 2025",
       companyLink: "https://www.tekside.io/",
