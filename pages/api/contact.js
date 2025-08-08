@@ -1,7 +1,4 @@
-const { SuperfaceClient } = require('@superfaceai/one-sdk');
 const nodemailer = require('nodemailer');
-
-const sdk = new SuperfaceClient({ sdkAuthToken: 'sfs_deeb23c262837f0164c89856fb0ad6865f3adb6413f7d90be3a31ac0c29d778d6d81b4bee332846da0fa4dd92e6e1a2ff9151768d27c6764191988e71dde2715_18c492d7' });
 
 // Just check if all required fields are provided
 function formValid(body) {
