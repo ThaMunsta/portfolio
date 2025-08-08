@@ -43,8 +43,7 @@ export default async function handler(req, res) {
   const result = await transporter.sendMail(mailOptions);
 
   try {
-    const data = result.unwrap();
-    console.log(data);
+    console.log(result);
     res.status(201).end();
   } catch (error) {
     console.error(error);
