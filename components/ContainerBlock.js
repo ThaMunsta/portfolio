@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { devYears } from "@constants/data";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
