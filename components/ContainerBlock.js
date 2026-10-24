@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Mike Johnston - Software Developer",
-    description: `I've been a developer for 9 years. Get in touch with me to know more.`,
+    description: `I've been a developer for ${devYears()}+ years. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,

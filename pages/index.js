@@ -5,13 +5,13 @@ import FavouriteProjects from "../components/FavouriteProjects";
 import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
-import userData from "@constants/data";
+import userData, { devYears } from "@constants/data";
 
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Mike Johnston - Developer, Programmer, Analyst"
-      description="I've been a developer 9+ for  years. This is my porfolio website. "
+      description={`I've been a developer for ${devYears()}+ years. This is my portfolio website.`}
     >
       <Hero />
       {/* <FavouriteProjects /> */}
@@ -21,7 +21,6 @@ export default function Home({ repositories }) {
 }
 
 export const getServerSideProps = async () => {
-  console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
 
   const repositories = await getLatestRepos(userData, token);

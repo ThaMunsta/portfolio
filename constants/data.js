@@ -1,8 +1,14 @@
+const techStartYear = 2010;
+const devStartYear = 2017;
+const yearsSince = (year) => new Date().getFullYear() - year;
+
 const userData = {
   githubUsername: "thamunsta",
+  giteaUsername: "ThaMunsta",
+  giteaUrl: "https://git.dev.nervesocket.com",
   pretext: "Yet Another",
   name: "Mike Johnston",
-  designation: "Senior Technical Lead",
+  designation: "Technical Team Lead",
   avatarUrl: "/avatar.png",
   email: "hello@yamj.ca",
   phone: "+12892080901",
@@ -14,12 +20,23 @@ const userData = {
       link: "https://github.com/ThaMunsta/portfolio",
       imgUrl: "/portfolio.png",
     },
+    {
+      id: 1,
+      title: "HashEx",
+      link: "https://git.dev.nervesocket.com/ThaMunsta/hashex",
+      imgUrl: "/hashex.png",
+    },
+    {
+      id: 2,
+      title: "LootHunt",
+      link: "https://git.dev.nervesocket.com/ThaMunsta/loot-hunt",
+      imgUrl: "/loothunt.png",
+    },
   ],
   about: {
-    title:
-      "Hello, I'm Mike Johnston, a passionate and dedicated Developer and IT Professional with over 17 years experience.",
+    title: `Hello, I'm Mike Johnston, a passionate and dedicated Developer and IT Professional with over ${yearsSince(techStartYear)} years experience.`,
     description: [
-      "With 11+ years of experience as a Developer and 15+ years in tech, I have obtained expertise in various programming languages, frameworks, systems and utilities.",
+      `With ${yearsSince(devStartYear)}+ years of experience as a Developer and ${yearsSince(techStartYear)}+ years in tech, I have obtained expertise in various programming languages, frameworks, systems and utilities.`,
       " I have worked on a variety of projects, from simple websites to complex system integrations and solution architecture."    
     ],
     currentProject: "this portfolio website",
@@ -28,26 +45,38 @@ const userData = {
   experience: [
     {
       id: 0,
-      title: "Senior Technical Lead",
+      title: "Technical Team Lead",
       company: "ClaroVant Digital Inc.",
-      year: "2025 - Present",
+      year: "2026 - Present",
       companyLink: "https://www.clarovantdigital.com/",
-      desc: [
-        "",
-      ],
+      desc: "",
     },
     {
       id: 1,
+      title: "Senior Software Developer",
+      company: "RBC",
+      year: "2026",
+      companyLink: "https://rbc.com/",
+      desc: "",
+    },
+    {
+      id: 2,
+      title: "Senior Technical Lead",
+      company: "ClaroVant Digital Inc.",
+      year: "2025",
+      companyLink: "https://www.clarovantdigital.com/",
+      desc: "",
+    },
+    {
+      id: 3,
       title: "Senior Developer / DevOps Lead",
       company: "Tekside.io",
       year: "2019 - 2025",
       companyLink: "https://www.tekside.io/",
-      desc: [
-        "",
-      ],
+      desc: "",
     },
     {
-      id: 2,
+      id: 4,
       title: "Software Developer",
       company: "Inbox Marketer",
       year: "2017 - 2019",
@@ -55,7 +84,7 @@ const userData = {
       desc: ""
     },
     {
-      id: 3,
+      id: 5,
       title: "Senior Technical Support",
       company: "Keystroke Quality Computing Ltd.",
       year: "2013 - 2017",
@@ -63,7 +92,7 @@ const userData = {
       desc: ""
     },
     {
-      id: 4,
+      id: 6,
       title: "Support Ninja",
       company: "Hero Technical Solutions Inc.",
       year: "2010 - 2013",
@@ -77,7 +106,11 @@ const userData = {
     instagram: "https://instagram.com/thamunsta",
     linkedin: "https://linkedin.com/in/thatmikej",
     github: "https://github.com/thamunsta",
+    gitea: "https://git.dev.nervesocket.com",
+    mastodon: "https://mastodon.nervesocket.com/@ThaMunsta",
   },
 };
+
+export const devYears = () => yearsSince(devStartYear);
 
 export default userData;

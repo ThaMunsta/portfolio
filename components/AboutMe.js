@@ -101,6 +101,31 @@ export default function AboutMe() {
                   </div>
                 </a>
               </div>
+              <div className="flex flex-row justify-start items-center">
+                <a
+                  href={userData.socialLinks.mastodon}
+                  rel="me"
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    Mastodon
+                  </div>
+                </a>
+              </div>
+              <div className="flex flex-row justify-start items-center">
+                <a
+                  href={userData.socialLinks.gitea}
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    Gitea
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
           {/* Text area */}
@@ -118,6 +143,11 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
+            <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                alt="Java"
+                className="h-20 w-20 mx-4 my-4"
+              />
             <img
                 src="https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png"
                 className="h-20 w-20 mx-4 my-4"
